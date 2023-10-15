@@ -1,0 +1,7 @@
+{
+	"prettier.htmlWhitespaceSensitivity": "css",
+	"prettier.singleAttributePerLine": false,
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.singleQuote": false,
+	"prettier.bracketSameLine": false
+}
