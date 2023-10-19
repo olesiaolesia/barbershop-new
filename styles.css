@@ -1,0 +1,126 @@
+:root {
+	--primary-font: "Open Sans", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--accent-color: #ff6c00;
+	--primary-text-color-theme-dark: #9da4bd;
+	--primary-text-color-theme-light: #303030;
+	--secondary-text-color-theme-dark: #fff;
+	--secondary-text-color-theme-light: #555;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+body {
+	font-family: var(--primary-font);
+}
+
+/* ============ HERO ============  */
+.main-title {
+	font-family: var(--secondary-font);
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1.18;
+	letter-spacing: 3.6px;
+	/* color: var(--secondary-text-color-theme-dark); */
+}
+
+/* ============ COMPONENTS ============  */
+
+.modal-btn {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 1.08px;
+	text-transform: uppercase;
+	cursor: pointer;
+	/* color: #FFF; */
+}
+
+.modal-btn:is(:hover, :focus) {
+	background-color: var(--accent-color);
+	color: #fff;
+}
+
+.media-list-link {
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	letter-spacing: 2.2px;
+	color: var(--primary-text-color-theme-light);
+}
+
+.media-list-link:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+.secondary-title {
+}
+
+.suptitle {
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	text-transform: uppercase;
+}
+
+.suptitle-theme-dark {
+	color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-theme-ligth {
+	color: var(--primary-text-color-theme-light);
+}
+
+.subtitle {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.66;
+	letter-spacing: 0.36px;
+	/* color: var(--primary-text-color-theme-dark); */
+}
+
+/* ============ HEADER ============  */
+
+.header-menu-link {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 1.2px;
+	/* color: var(--secondary-text-color-theme-dark); */
+}
+
+.header-menu-link:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+.header-phone {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 1.2px;
+	/* color: var(--secondary-text-color-theme-dark); */
+}
+
+.header-phone:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+/* ============ ABOUT ============  */
+.about-title {
+	font-family: var(--secondary-font);
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 2.1px;
+	color: #303030;
+}
+
+/* ============ ABOUT ============  */
+/* ============ ABOUT ============  */
+/* ============ ABOUT ============  */
