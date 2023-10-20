@@ -39,12 +39,12 @@ body {
 	letter-spacing: 1.08px;
 	text-transform: uppercase;
 	cursor: pointer;
-	/* color: #FFF; */
+	/* color: var(--secondary-text-color-theme-dark); */
 }
 
 .modal-btn:is(:hover, :focus) {
 	background-color: var(--accent-color);
-	color: #fff;
+	color: var(--secondary-text-color-theme-dark);
 }
 
 .media-list-link {
@@ -75,6 +75,14 @@ body {
 
 .suptitle-theme-ligth {
 	color: var(--primary-text-color-theme-light);
+}
+
+.title {
+	font-family: var(--secondary-font);
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 2.1px;
 }
 
 .subtitle {
@@ -113,14 +121,124 @@ body {
 
 /* ============ ABOUT ============  */
 .about-title {
-	font-family: var(--secondary-font);
-	font-size: 42px;
-	font-weight: 700;
-	line-height: 1.16;
-	letter-spacing: 2.1px;
-	color: #303030;
+	color: var(--primary-text-color-theme-light);
 }
 
-/* ============ ABOUT ============  */
-/* ============ ABOUT ============  */
-/* ============ ABOUT ============  */
+.about-text {
+	font-family: var(--primary-font);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.86;
+	letter-spacing: 0.28px;
+	color: var(--secondary-text-color-theme-light);
+}
+
+/* ============ PRICES ============  */
+.prices-title {
+	color: var(--secondary-text-color-theme-dark);
+}
+
+.prices-text {
+	font-family: var(--primary-font);
+	font-size: 18px;
+
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.36px;
+	color: var(--primary-text-color-theme-dark);
+}
+
+/* ============ ADVANTAGES ============  */
+.advantages-title {
+	color: var(--primary-text-color-theme-light);
+}
+
+.advantages-item-text {
+	font-family: var(--primary-font);
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	color: var(--primary-text-color-theme-light);
+}
+
+/* ============ BARBERS ============  */
+.barbers-title {
+	color: var(--primary-text-color-theme-light);
+}
+
+.barbers-item-title {
+	font-family: var(--primary-font);
+	font-size: 18px;
+
+	font-weight: 400;
+	line-height: 1.39;
+	letter-spacing: 0.36px;
+	color: var(--primary-text-color-theme-light);
+}
+
+.barbers-item-text {
+	font-family: var(--primary-font);
+	font-size: 14px;
+
+	font-weight: 400;
+	line-height: 1.36;
+	letter-spacing: 0.28px;
+	color: var(--accent-color);
+}
+/* ============ GALLERY ============  */
+.visually-hidden {
+	visibility: hidden;
+	pointer-events: none;
+	position: absolute;
+}
+/* ============ BOOKING FORM ============  */
+
+.booking-form-title {
+	color: var(--secondary-text-color-theme-dark);
+}
+
+/* ============ CONTACTS ============  */
+.contacts-title {
+	color: var(--secondary-text-color-theme-dark);
+}
+
+.contacts-adress {
+	font-style: normal;
+}
+.contacts-link {
+	font-family: var(--primary-font);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.36px;
+	color: var(--primary-text-color-theme-dark);
+}
+.contacts-link.bold {
+	font-weight: 700;
+}
+
+.contacts-text {
+	font-family: var(--primary-font);
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	color: var(--secondary-text-color-theme-dark);
+}
+
+.contacts-schedule {
+	font-family: var(--primary-font);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.36px;
+	color: var(--primary-text-color-theme-dark);
+}
+/* ============ FOOTER ============  */
+.footer-text {
+	font-family: var(--primary-font);
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	letter-spacing: 2.2px;
+	color: var(--primary-text-color-theme-dark);
+}
