@@ -8,6 +8,8 @@
 	--secondary-text-color-theme-light: #555;
 }
 
+/* ============ RESET ============  */
+
 .list {
 	list-style: none;
 }
@@ -16,19 +18,13 @@
 	text-decoration: none;
 }
 
+
+
 body {
 	font-family: var(--primary-font);
 }
 
-/* ============ HERO ============  */
-.main-title {
-	font-family: var(--secondary-font);
-	font-size: 72px;
-	font-weight: 700;
-	line-height: 1.18;
-	letter-spacing: 3.6px;
-	/* color: var(--secondary-text-color-theme-dark); */
-}
+
 
 /* ============ COMPONENTS ============  */
 
@@ -117,6 +113,16 @@ body {
 
 .header-phone:is(:hover, :focus) {
 	color: var(--accent-color);
+}
+
+/* ============ HERO ============  */
+.main-title {
+	font-family: var(--secondary-font);
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1.18;
+	letter-spacing: 3.6px;
+	/* color: var(--secondary-text-color-theme-dark); */
 }
 
 /* ============ ABOUT ============  */
